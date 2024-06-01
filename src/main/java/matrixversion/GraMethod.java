@@ -56,6 +56,7 @@ public class GraMethod {
         List<String> words = readFileAndExtractWords(filePath);
         int countt = 0;
         for(int i = 0;i<words.size();i++) {
+
             String word = words.get(i);
             if (!nodesMap.containsKey(word)){
                 nodesMap.put(word, countt);

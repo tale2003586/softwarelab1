@@ -113,6 +113,7 @@ public class GUI {
         shortestpathPanel.add(label_shortest2);
         shortestpathPanel.add(textField_shortestB);
         shortestpathPanel.add(new JLabel("\n                            "));
+
         shortestpathPanel.add(shortestButton);
         shortestpathPanel.add(new JLabel("\n                            "));
         shortestpathPanel.add(new JLabel("\n                            "));

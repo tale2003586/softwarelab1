@@ -40,6 +40,7 @@ public class myGraph {
         this.nodes.get(x).addOutDegree();
         this.nodes.get(y).addInDegree();
         this.edges[x][y]++;
+
     }
 
     //为矩阵的构建添加节点
