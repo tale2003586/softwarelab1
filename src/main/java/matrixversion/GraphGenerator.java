@@ -119,9 +119,9 @@ public class GraphGenerator {
                     if (adjacencyMatrix2 == null) {
                         edge.setAttribute("ui.style", "arrow-shape: arrow; fill-color: black;");
                     } else if (adjacencyMatrix1[i][j] != 0 && adjacencyMatrix2[i][j] != 0) {
-                        edge.setAttribute("ui.style", "arrow-shape: arrow; fill-color: blue;");
-                    } else if (adjacencyMatrix1[i][j] != 0) {
                         edge.setAttribute("ui.style", "arrow-shape: arrow; fill-color: red;");
+                    } else if (adjacencyMatrix1[i][j] != 0) {
+                        edge.setAttribute("ui.style", "arrow-shape: arrow; fill-color: black;");
                     } else {
                         edge.setAttribute("ui.style", "arrow-shape: arrow; fill-color: green;");
                     }
