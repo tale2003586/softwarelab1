@@ -381,6 +381,7 @@ public class GraMethod {
             //如果没有出边的话,就停止遍历
             return;
 
+
         }
         //如果存在邻居节点的话
         for (int i = 0; i < nodeGraph.getNodesSize(); i++) {
